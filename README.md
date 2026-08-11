@@ -52,23 +52,6 @@ The **LetzGo** Android app provides an end-to-end self-drive vehicle rental serv
 
 ---
 
-## 📷 App Screenshots
-
-*(Replace the image paths below with your actual image links or local file paths in your repository)*
-
-| Splash & Login | Registration | City Selection |
-| :---: | :---: | :---: |
-| <img src="screenshots/splash.png" width="200"/> | <img src="screenshots/signup.png" width="200"/> | <img src="screenshots/cities.png" width="200"/> |
-
-| Dashboard | Fleet - All | Fleet - Bikes |
-| :---: | :---: | :---: |
-| <img src="screenshots/dashboard.png" width="200"/> | <img src="screenshots/fleet_all.png" width="200"/> | <img src="screenshots/fleet_bikes.png" width="200"/> |
-
-| Fleet - Scooters | Booking History | User Profile |
-| :---: | :---: | :---: |
-| <img src="screenshots/fleet_scooters.png" width="200"/> | <img src="screenshots/bookings.png" width="200"/> | <img src="screenshots/profile.png" width="200"/> |
-
----
 
 ## 📚 Project Learnings
 
