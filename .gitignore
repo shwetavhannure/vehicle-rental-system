@@ -1,0 +1,19 @@
+# Build outputs & generated files
+*.iml
+.gradle/
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Local environment & SDK settings (contains your local machine paths)
+local.properties
+
+# IDE & Editor settings
+/.idea/
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db

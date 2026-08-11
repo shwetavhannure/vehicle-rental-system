@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="#052E47"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="4dp"> <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/tvCardTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vehicle Name"
+        android:textColor="#FF5722"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:id="@+id/ivVehicle"
+        android:layout_width="130dp"
+        android:layout_height="90dp"
+        android:layout_below="@id/tvCardTitle"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/tvCardTitle"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:gravity="end">
+
+        <TextView
+            android:id="@+id/tvDayRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Starting from ₹399/day"
+            android:textColor="#B0BEC5"
+            android:textSize="12sp"
+            android:maxLines="1"/>
+
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:layout_marginTop="4dp">
+            <ImageView android:layout_width="15dp" android:layout_height="15dp" app:srcCompat="@drawable/ic_deposit" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" Zero Deposit" android:textColor="#00BCD4" android:textSize="12sp" android:layout_marginStart="4dp"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:layout_marginTop="4dp">
+            <ImageView android:layout_width="15dp" android:layout_height="15dp" app:srcCompat="@drawable/ic_mileage" />
+            <TextView android:id="@+id/tvKm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 150 KM" android:textColor="#FFFFFF" android:textSize="13sp" android:layout_marginStart="4dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivVehicle"
+        android:layout_marginTop="15dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBook"
+        android:layout_width="100dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/tvPrice"
+        android:layout_alignBottom="@id/tvPrice"
+        android:background="@drawable/btn_bg"
+        android:text="Book Now"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        android:textStyle="bold"/>
+</RelativeLayout>
+</androidx.cardview.widget.CardView>
